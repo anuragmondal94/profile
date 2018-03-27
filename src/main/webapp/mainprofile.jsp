@@ -11,9 +11,11 @@
 <body onload>
 	<div>
 		<div id="header" style="height: 18%; width: 100%">
+		
 			<jsp:include page="header.jsp" />
 		</div>
-		<div id="body" style="height: 75%; width: 100%">
+		<div id="headerspacing" style="height: 2%; width: 100%"></div>
+		<div id="body" style="height: 73%; width: 100%">
 			<div id="menu" style="height: 100%; width: 10%; float: left">
 				<form class="form-style-5">
 					<jsp:include page="category.jsp" />
@@ -182,9 +184,9 @@
 
 		</div>
 
-	</div>
-	<div id="footerSpacig" style="height: 2%; width: 100%"></div>
-	<div id="footer" style="height: 5%; width: 100%">
+	
+		<div id="footerSpacig" style="height: 2%; width: 100%"></div>
+		<div id="footer" style="height: 5%; width: 100%">
 		<jsp:include page="footer.jsp" />
 	</div>
 	</div>
