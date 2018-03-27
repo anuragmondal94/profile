@@ -85,9 +85,7 @@
 
 
 							<input onclick="showdoctor()" type="button" value="submit"
-								style="font-size: unset"> <br /> <input
-								onclick="showviewprofile()" type="button" value="Cancel"
-								style="font-size: unset">
+								style="font-size: unset"> <br /> 
 						</form>
 
 
@@ -132,9 +130,7 @@
 							<input type="text" name="field1" placeholder="Clinic"> <input
 								type="text" name="field1" placeholder="Amount"> <input
 								onclick="showclaim()" type="button" value="submit"
-								style="font-size: unset"> <br /> <input
-								onclick="showviewprofile()" type="button" value="Cancel"
-								style="font-size: unset">
+								style="font-size: unset"> <br /> 
 						</form>
 
 
