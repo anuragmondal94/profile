@@ -30,7 +30,7 @@
 				</div>
 				<div id="product-display" style="float:left; height:100%;width:85%">
 					
-					<jsp:include page="pricing.jsp" />
+					<jsp:include page="mainprofile.jsp" />
 				</div>
 		</div>
 	</div>

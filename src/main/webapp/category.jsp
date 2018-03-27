@@ -1,131 +1,197 @@
-<div style="height:10%;width:100%"></div>
-<div class="catg">
-<a href="#id1" class="flipper-container">
-  <div id="id1" class="flipper">
-    <div class="front-face" data-icon="" href="#"><span data-hover="Clicked">Medical</span></div>
-    <div class="back-face" data-icon="">Medical</div>
-  </div>
-</a>
-</div>
-<div class="catg">
-<a href="#id2" class="flipper-container">
-  <div id="id2" class="flipper">
-    <div class="front-face" data-icon="" href="#"><span data-hover="Clicked">Dental</span></div>
-    <div class="back-face" data-icon="">Dental</div>
-  </div>
-</a>
-</div>
-<div class="catg">
-<a href="#id3" class="flipper-container">
-  <div id="id3" class="flipper">
-    <div class="front-face" data-icon="" href="#"><span data-hover="Clicked">Vision</span></div>
-    <div class="back-face" data-icon="">Vision</div>
-  </div>
-</a>
-</div>
-<style>
-.catg{
-height:20%;
-width:100%;
+#adasd{
+	
 }
-.flipper-container {
-  text-align: center;
-  -webkit-perspective: 1000;
-  -moz-perspective: 1000;
-  -ms-perspective: 1000;
-  -o-perspective: 1000;
-  perspective: 1000;
-}
-
-.flipper {
-  display: inline-block;
+.contact-button {
   position: relative;
-  text-decoration: none;
-  font-family: 'Montserrat', arial, sans-serif;
-  font-weight: 200;
-  text-transform: uppercase;
-  width: 11em;
-  height: 4.5em;
-  background-color: #282828;
-  box-shadow: 0 3px 5px #282828;
-  -webkit-transition: all 0.6s cubic-bezier(0.37, 0.74, 0.15, 1.65);
-  -moz-transition: all 0.6s cubic-bezier(0.37, 0.74, 0.15, 1.65);
-  -o-transition: all 0.6s cubic-bezier(0.37, 0.74, 0.15, 1.65);
-  transition: all 0.6s cubic-bezier(0.37, 0.74, 0.15, 1.65);
-  -webkit-transform-style: preserve-3d;
-  -moz-transform-style: preserve-3d;
-  -ms-transform-style: preserve-3d;
-  -o-transform-style: preserve-3d;
-  transform-style: preserve-3d;
-}
-.flipper:target {
-  -webkit-transform: rotateX(90deg);
-  -moz-transform: rotateX(90deg);
-  -ms-transform: rotateX(90deg);
-  -o-transform: rotateX(90deg);
-  transform: rotateX(90deg);
-}
-
-.front-face, .back-face {
-  position: absolute;
-  width: 60%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  padding-right: 70px;
-  letter-spacing: 2px;
-  line-height: 4.5em;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  -ms-border-radius: 2px;
-  -o-border-radius: 2px;
-  border-radius: 2px;
+  -webkit-perspective: 1000;
   -webkit-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
-  -ms-backface-visibility: hidden;
-  -o-backface-visibility: hidden;
-  backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  color: #1abc9c;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 1em;
+   border-radius: 4px;
+  padding: 10px 30px 10px 10px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  background-color:#e8eeef;
 }
-.front-face:before, .back-face:before {
-  content: attr(data-icon);
-  font-size: 30px;
+.contact-button span {
+  text-transform: none;
   position: absolute;
-  top: 0;
-  right: 0;
-  height: 100%;
-  width: 70px;
-  border-radius: 0 2px 2px 0;
+  color: black;
+ 
+  opacity: 0;
+  -webkit-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+}
+.contact-button:hover {
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  border: 2px solid grey;
+  border-radius: 50px;
+  background-color: #1abc9c;
+}
+.contact-button:hover > span {
+  opacity: 1;
+  -webkit-transition: all 0.25s ease-in-out 0.1s;
+  transition: all 0.25s ease-in-out 0.1s;
+}
+.contact-button:hover:before {
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  background-color: #EE283E;
+}
+ 
+.form-style-5{
+    max-width: 400px;
+    padding: 10px 10px;
+    background: #f4f7f8;
+    margin: 10px auto;
+    padding: 20px;
+    background: #f4f7f8;
+    border-radius: 8px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+.form-style-5 fieldset{
+    border: none;
+}
+.form-style-5 legend {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+.form-style-5 label {
+    display: block;
+    margin-bottom: 8px;
 }
 
-.front-face {
-  background-color: lightgrey;
-  color: #fff;
-  text-shadow: 0 1px 1px #b50236;
-  -webkit-transform: rotateX(0deg) translateZ(2.25em);
-  -moz-transform: rotateX(0deg) translateZ(2.25em);
-  -ms-transform: rotateX(0deg) translateZ(2.25em);
-  -o-transform: rotateX(0deg) translateZ(2.25em);
-  transform: rotateX(0deg) translateZ(2.25em);
+
+.form-style-5 input[type="text"],
+.form-style-5 input[type="date"],
+.form-style-5 input[type="datetime"],
+.form-style-5 input[type="email"],
+.form-style-5 input[type="number"],
+.form-style-5 input[type="search"],
+.form-style-5 input[type="time"],
+.form-style-5 input[type="url"],
+.form-style-5 textarea,
+.form-style-5 select {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background: rgba(255,255,255,.1);
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 0;
+    outline: 0;
+    padding: 7px;
+    width: 100%;
+    box-sizing: border-box; 
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; 
+    background-color: #1abc9c;
+    color:#8a97a0;
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 30px;
+    
 }
-.front-face:before {
-  background-image: -webkit-linear-gradient(45deg, #E6E6E6 0%, #D8D8D8 50%, #BDBDBD 50%, #A4A4A4);
-  background-image: -moz-linear-gradient(45deg, #E6E6E6 0%, #D8D8D8 50%, #BDBDBD 50%, #A4A4A4);
-  background-image: -o-linear-gradient(45deg, #E6E6E6 0%, #D8D8D8 50%, #BDBDBD 50%, #A4A4A4);
-  background-image: linear-gradient(45deg, #E6E6E6 0%, #D8D8D8 50%, #BDBDBD 50%, #A4A4A4);
+.form-style-5 input[type="text"]:focus,
+.form-style-5 input[type="date"]:focus,
+.form-style-5 input[type="datetime"]:focus,
+.form-style-5 input[type="email"]:focus,
+.form-style-5 input[type="number"]:focus,
+.form-style-5 input[type="search"]:focus,
+.form-style-5 input[type="time"]:focus,
+.form-style-5 input[type="url"]:focus,
+.form-style-5 textarea:focus,
+.form-style-5 select:focus{
+    background: #d2d9dd;
+}
+.form-style-5 select{
+    -webkit-appearance: menulist-button;
+    height:35px;
+}
+.form-style-5 .number {
+    background: #1abc9c;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    font-size: 0.8em;
+    margin-right: 4px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+    border-radius: 15px 15px 15px 0px;
 }
 
-.back-face {
-  background-color: #77bd42;
-  color: #53842e;
-  -webkit-transform: rotateX(-90deg) translateZ(2.25em);
-  -moz-transform: rotateX(-90deg) translateZ(2.25em);
-  -ms-transform: rotateX(-90deg) translateZ(2.25em);
-  -o-transform: rotateX(-90deg) translateZ(2.25em);
-  transform: rotateX(-90deg) translateZ(2.25em);
+.form-style-5 input[type="submit"],
+.form-style-5 input[type="button"]
+{
+    position: relative;
+    display: block;
+    padding: 19px 19px 18px 19px;
+    color: #FFF;
+    margin: 0 auto;
+    background: #1abc9c;
+    font-size: 8px;
+    text-align: center;
+    font-style: normal;
+    width: 100%;
+    border: 1px solid #16a085;
+    border-width: 1px 1px 3px;
+ }
+.form-style-5 input[type="submit"]:hover,
+.form-style-5 input[type="button"]:hover
+{
+    background: #109177;
 }
-.back-face:before {
-  background-image: -webkit-linear-gradient(45deg, #53842e 0%, #76bc42 50%, #7dbd4c 50%, #77bd42);
-  background-image: -moz-linear-gradient(45deg, #53842e 0%, #76bc42 50%, #7dbd4c 50%, #77bd42);
-  background-image: -o-linear-gradient(45deg, #53842e 0%, #76bc42 50%, #7dbd4c 50%, #77bd42);
-  background-image: linear-gradient(45deg, #53842e 0%, #76bc42 50%, #7dbd4c 50%, #77bd42);
-</style>
+
+
+* {
+    margin:0;
+    padding:0;
+ }
+
+
+.field {
+  display:flex;
+  position:realtive;
+  margin:1em auto;
+  width:70%;
+  flex-direction:row;
+  box-shadow:
+   1px 1px 0 rgb(22, 160, 133),
+   2px 2px 0 rgb(22, 160, 133),
+   3px 3px 0 rgb(22, 160, 133),
+   4px 4px 0 rgb(22, 160, 133),
+   5px 5px 0 rgb(22, 160, 133),
+   6px 6px 0 rgb(22, 160, 133),
+   7px 7px 0 rgb(22, 160, 133)
+  ;
+}
+
+.field>input[type=text],
+.field>button {
+  display:block;
+  font:1em 'Montserrat Alternates';
+}
+
+.field>input[type=text] {
+  flex:1;
+  padding:0.6em;
+  border:0.2em solid rgb(26, 188, 156);
+}
+
+.field>button {
+  padding:0.6em 0.8em;
+  background-color:rgb(26, 188, 156);
+  color:white;
+  border:none;
+}
+
+.menus{
+	float:left;width:10%;height:100%;
+}
