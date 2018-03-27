@@ -26,8 +26,8 @@
 	<div>
 	<a href="#id4" class="flipper-container">
 	  <div id="id4" class="flipper">
-		<div class="front-face" onclick="showfileclaim()" data-icon="" href="#"><span data-hover="Clicked">FileaClaim</span></div>
-		<div class="back-face" data-icon="">FileaClaim</div>
+		<div class="front-face" onclick="showclaim()" data-icon="" href="#"><span data-hover="Clicked">Viewclaim</span></div>
+		<div class="back-face" data-icon="">Viewclaim</div>
 	  </div>
 	</a>
 	</div>
