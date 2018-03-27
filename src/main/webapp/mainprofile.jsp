@@ -19,9 +19,9 @@
 					<jsp:include page="category.jsp" />
 				</form>
 			</div>
-			<div id="display" style="height: 100%; width: 90%; float: left">
+			<div id="display" style="overflow:auto;height: 100%; width: 90%; float: left">
 				<div style="float: left; width: 33%; height: 100%"></div>
-				<div style="overflow:auto;float: left; width: 33%; height: 100%">
+				<div style="float: left; width: 33%; height: 100%">
 					<div id="viewprofile">
 						<form class="form-style-5">
 							<legend>View Profile</legend>
