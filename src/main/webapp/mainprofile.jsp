@@ -181,7 +181,7 @@
 
 			
 			<div style="float: left; width: 33%; height: 100%">
-			<iframe src="http://ec2-18-188-27-184.us-east-2.compute.amazonaws.com:8080/advertisement.jsp" width="100%" height="100%"></iframe>
+			<iframe src="http://ec2-18-188-27-184.us-east-2.compute.amazonaws.com:8080/advertisement.jsp" width="100%" height="100%" style="display:block;"></iframe>
 			</div>
 			</div>
 
