@@ -12,8 +12,7 @@
 	<div>
 		<div id="header" style="height: 18%; width: 100%">
 		
-			<iframe src="http://ec2-18-188-27-184.us-east-2.compute.amazonaws.com:8080/header.jsp" width="100%" height="100%"
-></iframe>
+			<iframe src="http://ec2-18-188-27-184.us-east-2.compute.amazonaws.com:8080/header.jsp" width="100%" height="100%"></iframe>
 		</div>
 		<div id="headerspacing" style="height: 2%; width: 100%"></div>
 		<div id="body" style="overflow:auto;height: 73%; width: 100%">
@@ -181,16 +180,18 @@
 				</div>
 
 			
-			<div style="float: left; width: 33%; height: 100%"></div>
+			<div style="float: left; width: 33%; height: 100%">
+			</div>
 			</div>
 
 		</div>
 
 	
-		<div id="footerSpacig" style="height: 2%; width: 100%"></div>
+		<div id="footerSpacig" style="height: 2%; width: 100%">
+		<iframe src="http://ec2-18-188-27-184.us-east-2.compute.amazonaws.com:8080/advertisement.jsp" width="100%" height="100%"></iframe>
+		</div>
 		<div id="footer" style="height: 5%; width: 100%">
-		<iframe src="http://ec2-18-188-27-184.us-east-2.compute.amazonaws.com:8080/footer.jsp" width="100%" height="100%"
-></iframe>
+		<iframe src="http://ec2-18-188-27-184.us-east-2.compute.amazonaws.com:8080/footer.jsp" width="100%" height="100%"></iframe>
 	</div>
 	</div>
 
