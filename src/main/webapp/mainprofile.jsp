@@ -7,12 +7,13 @@
 </style>
 <script src="profile.js" type="text/javascript"></script>
 <link rel="stylesheet" type="text/css"
-	href="C:\Users\owner\Desktop\Jee\Website"></link>
+	href="http://ec2-18-188-27-184.us-east-2.compute.amazonaws.com:8080/common.css"></link>
 <body onload>
 	<div>
 		<div id="header" style="height: 18%; width: 100%">
 		
-			<jsp:include page="header.jsp" />
+			<iframe src="http://ec2-18-188-27-184.us-east-2.compute.amazonaws.com:8080/header.jsp"
+></iframe>
 		</div>
 		<div id="headerspacing" style="height: 2%; width: 100%"></div>
 		<div id="body" style="overflow:auto;height: 73%; width: 100%">
@@ -188,7 +189,8 @@
 	
 		<div id="footerSpacig" style="height: 2%; width: 100%"></div>
 		<div id="footer" style="height: 5%; width: 100%">
-		<jsp:include page="footer.jsp" />
+		<iframe src="http://ec2-18-188-27-184.us-east-2.compute.amazonaws.com:8080/footer.jsp"
+></iframe>
 	</div>
 	</div>
 
