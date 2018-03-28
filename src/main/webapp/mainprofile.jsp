@@ -17,9 +17,9 @@
 		<div id="headerspacing" style="height: 2%; width: 100%"></div>
 		<div id="body" style="overflow:auto;height: 73%; width: 100%">
 			<div id="menu" style="height: 100%; width: 10%; float: left">
-				<form class="form-style-5">
+				
 					<jsp:include page="category.jsp" />
-				</form>
+			
 			</div>
 			<div id="display" style="height: 100%; width: 90%; float: left">
 				<div style="float: left; width: 33%; height: 100%"></div>
@@ -179,8 +179,9 @@
 					</div>
 				</div>
 
-			</div>
+			
 			<div style="float: left; width: 33%; height: 100%"></div>
+			</div>
 
 		</div>
 
